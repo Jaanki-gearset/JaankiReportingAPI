@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#FFB945</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Provides objects, classes, reports and a dashboard for DORA metrics</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Gearset Reporting</label>
+    <navType>Standard</navType>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>GSR_Change_Failed_PR__c</tabs>
+    <tabs>GSR_Change_Failure_Summary__c</tabs>
+    <tabs>Gearset_Deployment__c</tabs>
+    <tabs>Gearset_Deployment_Summary__c</tabs>
+    <tabs>GSR_Lead_Time_PR__c</tabs>
+    <tabs>GSR_Lead_Time_Summary__c</tabs>
+    <tabs>GSR_Time_To_Restore_PR__c</tabs>
+    <tabs>GSR_Time_To_Restore_Summary__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Gearset_Reporting_UtilityBar</utilityBar>
+</CustomApplication>

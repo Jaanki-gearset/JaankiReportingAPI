@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Months_To_Retrieve__c</fullName>
+    <description>The previous time period for which data should be retrieved.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Some heuristics apply to a previous date in time. For example, a deployment becomes a failed deployment when it is reverted or fixed. The date of the failed deployment is the original deployment time, not the date of the correction. This value controls how many previous months to query when retrieving data.</inlineHelpText>
+    <label>Months To Retrieve</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
